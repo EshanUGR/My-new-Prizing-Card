@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Prizing Card</title>
+</head>
+<style>
+
+  html{
+    box-sizing:border-box;
+    font-size: 16px;
+    font-family: 'karla';
+    font-weight: 400;
+  }
+
+  *,*:before,*:after{
+    box-sizing:inherit;
+  }
+
+  body{
+
+    padding:20px;
+  }
+#card{
+
+  width:600px;
+  height:400px;
+  box-shadow: 2px 3px 7px 0px rgba(0,0,0,00.35);
+  padding: 20px;
+  /* border:1px solid red; */
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+#top-section{
+  height:45%;
+  width:100%;
+  border-radius: 5px;
+  overflow: hidden;
+  padding:25px;
+   /* border:2px solid green; */
+}
+
+#bottom-section{
+  width:100%;
+  height:55%;
+  color:white;
+  
+  /* border:2px solid rgb(110, 23, 192); */
+ 
+}
+
+#bottom-left-section{
+
+  width:50%;
+  height:100%;
+  /* border:2px solid orange; */
+  display: inline-block;
+  background-color: #2ab2af;
+  padding: 20px;
+ 
+
+}
+
+#bottom-right-section{
+  width:50%;
+  height:100%;
+   /* border:2px solid black; */
+   display: inline-block;
+   vertical-align: top;
+   background-color: #2EBFBD;
+   padding: 20px;
+ 
+}
+h2,h4,p{
+  margin:0px;
+}
+#top-section h2{
+
+  color:#2ab2af;
+  margin-bottom: 15px;
+}
+
+#top-section h4{
+
+  color:#c0df34;
+  margin-bottom: 10px;
+}
+
+#top-section p{
+  color:#98a6bd;
+}
+button{
+  color:white;
+  background-color: #c0df34;
+  border:none;
+  padding:10px;
+  width:100%;
+  border-radius: 5px;
+
+}
+button:hover{
+
+  cursor: pointer;
+  background-color: #A9C42D;
+  transform: scale(1.02);
+
+
+}
+#price{
+  font-weight:700;
+  font-size:1.4rem;
+}
+
+#bottom-left-section h4{
+  margin-bottom:15px;
+}
+#bottom-left-section p{
+font-size:0.8rem;
+}
+#price-frequency,#price{
+
+  display: inline-block;
+
+}
+
+#price-frequency{
+  position: relative;
+  top:-3px;
+
+
+
+}
+ul{
+  padding:0;
+  list-style: none;
+  font-size:0.8rem;
+  opacity: 0.8;
+}
+</style>
+<body>
+ 
+<div id="card">
+
+  <div id="top-section">
+
+    <h2 id="title">Join Our Community</h2>
+    <h4>30-day, hassle-free money back gurantee</h4>
+
+    <p>Gain acces to our full library of 
+      Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nulla, iure hic esse minus vel laborum officia distinctio eligendi rerum veritatis!
+    </p>
+
+  </div>
+
+  <div id="bottom-section">
+
+
+
+  <div id="bottom-left-section">
+<h4>Monthly Subscription</h4>
+
+<div id="price-container">
+<div id="price">29$</div>
+<div id="price-frequency">per month</div>
+
+</div>
+
+<p>Full access for less than $1 a day</p>
+<button onclick="alert('Hey,you clicked the button!')">Sign up</button>
+</div><div id="bottom-right-section">
+
+<h4>Why Us</h4>
+<ul>
+  <li>Tutorial by industry experts</li>
+  <li>Peer & expert code review</li>
+  <li>Coding exercies</li>
+  <li>Community forum</li>
+  <li>no idea</li>
+</ul>
+
+</div>
+
+  </div>
+
+
+
+
+</div>
+
+
+
+
+
+<!-- 17.10 -->
+
+</body>
+</html>
